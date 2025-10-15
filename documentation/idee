@@ -1,0 +1,48 @@
+Ik ga svgs maken en die dan als PDF genereren.
+ik teken de svg met een easy package genaamd turtle, die tkr gebruikt: https://docs.python.org/3/library/turtle.html#get-started
+https://pypi.org/project/svglib/1.5.1/#files
+
+lets go Suguru: https://github.com/Victorin-Brunel/Tectonic-Generator/blob/master/interface.py
+
+We maken een tectonic gamepje / appje.
+De belangrijkste feature is het creeren van nieuwe tectonics gebasseerd op een seed.
+Print kunnen maken.
+
+Bonus:
+moeilijkheidsgraad
+
+
+modes:
+Fog of war, waarbij je door het veld loopt vanaf je starting 1 en puzzlet om te lopen.
+
+multiplayer
+vs.
+time attack, zelfde bort, klok tikt vanaf eerste plaatsing of start
+Time duel, oms te beurt met snelschaak regels
+
+Coop
+Time Survival, oms te beurt, met levens om een beurt te skippen
+Kleurenvakjes die je kan unlocken met kleinere tectonics
+
+
+Andere dingen dan getallen, bijvoorbeeld ABBA
+Andere dingen dan vierkante grids
+3D
+
+grote puzzle oplossing:
+de vakjes met ? warin in het begin gevuld. 
+invert the field to start
+  000 001 002 003 004 005 006 007 008 009 010 011 012 013 014
+a A2  B3  B1  C6  C2? C5  C1  C3  C4  D5? D2? D6  H4  I2  I6?
+b A1  B5? B4? E5  F3  F4? F6  F5  G1? D3  D1  H5  H1  H3  I4 
+c B2? B6  E1  E6? E2  F1  J3  F2? G6  D4  H6? H2? K4? I5? I1?
+d L1  E3  E4  M3  M4  J5? J6  J4? G3  G5  K3  K5  K1  N6? I3 
+e L4? M2  M1  M5  J1  J2  Q3  Q2  R6  G2  G4  K2  N3  N2  N1 
+f L5? L6? L3  S4  S6  Q4  Q1  R4  R5? R1  T3? N5  N4  U6  U4 
+g L2  O1? O2  O5  S1  V3  R2  R3  W2  T6  T2  U1  U3? U5? X1 
+h O3  O6? P4  S3  S2? V4? V1  !5  W1  W5  T4? T5  @4  U2  #3 
+i O4  P2  P5  P6  S5  V6  !3  !4? !2  W3? T1  @2? @1  @6  #1 
+j P1  P3  Y1  Y2  Z1  V2  V5  !1? W6  W4  @5  @3  #5  #2  #4?
+
+Nieuw idee is kleine text adventure waarbij er puzzles worden opgeroepen en de oplossing invoerd moet worden
+Ik print ook de puzzles uit en maak het mogelijk om ingevoerde oplossing te checken 
