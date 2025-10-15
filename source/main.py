@@ -374,7 +374,7 @@ def allpuzzles():
     open_fourth_puzzle()
 
 def secret_santa_menu():
-    print("Santa wanted to make a tectonic puzzle generator")
+    print("Santa wanted to make a tectonic puzzle generator...")
     time.sleep(3)
     print("but he wasn't smart enough to figure out the logic")
     time.sleep(3)
